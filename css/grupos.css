@@ -1,0 +1,532 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "montserrat", sans-serif;
+    background-color: #141414;
+}
+
+
+body {
+    background-image: url('MEDIA/FONDO_back.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+}
+
+/*COSAS EN COMUN DE LAS SEIS TARJETAS*/
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 40px;
+    margin-top: 6%;
+}
+
+.columna2 {
+    flex-basis: 35%;
+    
+}
+
+
+.cuerpotarjeta {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+
+/*ACABA COSAS EN COMÚN*/
+
+
+/*-----------------------EMPIEZA TARJETA ARTISTAS--------------*/
+
+.tarjeta1 {
+    background-color: rgba(28, 28, 28, 0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.tarjeta1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta1 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.tarjeta1:hover {
+    border-color: #5E4686;
+}
+
+
+.titulo-tarjeta1 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #5E4686;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: 10px;
+}
+
+
+.titulo-tarjeta1 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+
+.boton-tarjeta1:hover {
+    border-color: #5E4686;
+    background-color: #5E4686;
+}
+
+.boton-tarjeta1 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #5E4686;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.boton-tarjeta1 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+/*-------------------ACABA TARJETA ARTISTAS---------------------*/
+
+/*-----------------EMPIEZA TARJETA ZONAS DEL FESTIVAL-----------*/
+.tarjeta2 {
+    background-color: rgba(28, 28, 28, 0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.tarjeta2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta2 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.tarjeta2:hover {
+    border-color: #8C2C2C;
+}
+
+
+.titulo-tarjeta2 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #8C2C2C;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: 10px;
+}
+
+
+.titulo-tarjeta2 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+
+.boton-tarjeta2:hover {
+    border-color: #8C2C2C;
+    background-color: #8C2C2C;
+}
+
+.boton-tarjeta2 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #8C2C2C;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.boton-tarjeta2 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+/*-----------------ACABA TARJETA ZONAS DEL FESTI---------------*/
+
+/*-----------------EMPIEZA TARJETA FOODTRUCKS-----------*/
+
+.tarjeta3 {
+    background-color: rgba(28, 28, 28, 0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.tarjeta3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta3 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.tarjeta3:hover {
+    border-color: #D4B63A;
+}
+
+
+.titulo-tarjeta3 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #D4B63A;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: 10px;
+}
+
+
+.titulo-tarjeta3 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+
+.boton-tarjeta3:hover {
+    border-color: #D4B63A;
+    background-color: #D4B63A;
+}
+
+.boton-tarjeta3 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #D4B63A;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.boton-tarjeta3 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+/*-----------------ACABA TARJETA FOODTRUCKS---------------*/
+
+/*-----------------EMPIEZA TARJETA MERCH-----------*/
+.tarjeta4 {
+    background-color: rgba(28, 28, 28, 0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.tarjeta4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta4 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.tarjeta4:hover {
+    border-color: #88AD7E;
+}
+
+
+.titulo-tarjeta4 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #88AD7E;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: 10px;
+}
+
+
+.titulo-tarjeta4 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+
+.boton-tarjeta4:hover {
+    border-color: #88AD7E;
+    background-color: #88AD7E ;
+}
+
+.boton-tarjeta4 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #88AD7E;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.boton-tarjeta4 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+/*-----------------ACABA TARJETA MERCH---------------*/
+
+/*-----------------EMPIEZA TARJETA HISTORIA DEL FESTI-----------*/
+.tarjeta5 {
+    background-color: rgba(28, 28, 28, 0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.tarjeta5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta5 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.tarjeta5:hover {
+    border-color: #85A6B9;
+}
+
+
+.titulo-tarjeta5 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #85A6B9;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: 10px;
+}
+
+
+.titulo-tarjeta5 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+
+.boton-tarjeta5:hover {
+    border-color: #85A6B9;
+    background-color: #85A6B9;
+}
+
+.boton-tarjeta5 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #85A6B9;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.boton-tarjeta5 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+/*-----------------ACABA TARJETA HISTORIA DEL FESTI---------------*/
+
+/*-----------------EMPIEZA TARJETA LOGÍSTICA-----------*/
+.tarjeta6 {
+    background-color: rgba(28, 28, 28, 0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.tarjeta6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.tarjeta6 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.tarjeta6:hover {
+    border-color: #CB448D;
+}
+
+
+.titulo-tarjeta6 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #CB448D;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block; 
+    text-align: center;
+    padding: 5px 0; 
+    margin-top: 10px;
+}
+
+
+.titulo-tarjeta6 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+
+.boton-tarjeta6:hover {
+    border-color: #CB448D;
+    background-color: #CB448D;
+}
+
+.boton-tarjeta6 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #CB448D;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.boton-tarjeta6 a {
+    text-decoration: none;
+    color: #E1E1E1;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+/*-----------------ACABA TARJETA LOGÍSTICA---------------*/
+
+/*------------------RESPONSIVE--------------*/
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: block; 
+    padding: 10px;
+  }
+  
+  .columna2 {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+}  

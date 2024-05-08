@@ -1,0 +1,326 @@
+/*----------EMPIEZA CABECERA---------*/
+
+header {
+	width: 100%;
+	height: auto;
+ 	    background-color: rgba(28, 28, 28, 0.2); 
+	display: flex;
+	overflow-x: hidden;
+	position: fixed;
+    top: 0; 
+    z-index: 1000;
+    backdrop-filter: blur(0.7px);
+}
+
+/* -------EMPIEZA LOGOTIPO---------*/
+#logotipo {
+	width: 40%;
+	height: auto;
+	padding: 2%;
+}
+
+#logotipo img {
+	width: 6rem;
+}
+
+/*-------ACABA LOGOTIPO-------*/
+
+/*-------EMPIEZA APARTADOS MENÚ-------*/
+
+#menu {
+  	font-family: "Montserrat", sans-serif;
+  	    margin-top: 3%;
+}
+
+
+nav {
+	width: 60%;
+
+}
+
+#menu {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	overflow: visible;
+}
+
+
+/*----------BOTÓN LINEUP---------*/
+
+.linksmenu1 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 15px 6% 0;
+}
+
+.linksmenu1 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linksmenu1:hover {
+    border-color: #5E4686;
+}
+
+.linksmenu1 {
+	width: auto;
+}
+
+.linksmenu1 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*------ACABA BOTÓN LINEUP-----*/
+
+/*------BOTÓN INFORMACION-------*/
+
+.linksmenu2 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.linksmenu2 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linksmenu2:hover {
+   border-color: #D4B63A; 
+}
+
+.linksmenu2 {
+	width: auto;
+}
+
+.linksmenu2 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*------ACABA BOTÓN INFORMACIÓN----*/
+
+/*-------BOTÓN ENTRADAS-----------*/
+
+.linksmenu3 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.linksmenu3 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linksmenu3:hover {
+   border-color: #85A6B9; 
+}
+
+.linksmenu3 {
+	width: auto;
+}
+
+.linksmenu3 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*---------ACABA BOTÓN ENTRADAS-------*/
+
+/*--------BOTÓN CONTACTO--------*/
+
+.linksmenu4 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.linksmenu4 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linksmenu4:hover {
+   	border-color: #88AD7E; 
+}
+
+.linksmenu4 {
+	width: auto;
+}
+
+.linksmenu4 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*-------ACABA BOTÓN CONTACTO--------*/
+
+/*-------------BOTÓN FAQ---------*/
+
+.linksmenu5 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.linksmenu5 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linksmenu5:hover {
+   border-color: #A51414; 
+}
+
+.linksmenu5 {
+	width: auto;
+}
+
+.linksmenu5 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*----------ACABA BOTÓN FAQ---------*/
+
+/*----------BOTÓN SPONSORS----------*/
+
+.linksmenu6 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.linksmenu6 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linksmenu6:hover {
+   border-color: #CB448D; 
+}
+
+.linksmenu6 {
+	width: auto;
+}
+
+.linksmenu6 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*------------ACABA BOTÓN SPONSORS--------*/
+
+/*-------ACABA APARTADOS MENÚ-------*/
+
+/*----RESPONSIVE------*/
+
+@media only screen and (max-width: 600px) {
+	header  {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        display: flex;
+        position: static;
+        z-index: 0;
+	}
+
+    #logotipo {
+        width: 100%; 
+        padding: 2% 0; 
+        justify-content: center;
+        display: flex;
+        align-content: center;
+    }
+
+    #logotipo img {
+        max-width: 60px; 
+    }
+
+    nav {
+        width: 100%; 
+    }
+
+    #menu {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        display: flex;
+    }
+
+    .linksmenu1, .linksmenu2, .linksmenu3, .linksmenu4, .linksmenu5, .linksmenu6 {
+        margin: 5px; 
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    #menu {
+        flex-direction: row;
+        justify-content: flex-end; 
+    }
+
+    #menu li {
+        margin: 0 10px; 
+    }
+
+}

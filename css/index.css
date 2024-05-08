@@ -1,0 +1,381 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body {
+    font-family: "montserrat", sans-serif;
+    background-color: #181818;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-image: url('MEDIA/FONDO.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+/* Estilos para el video */
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+
+/*-------------ESTILOS TEXTO SUPERPUESTO-----*/
+.texto-superpuesto {
+    position: absolute;
+    top: 40%;
+    left: 10%; 
+    transform: translateY(-50%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.texto-superpuesto2 {
+    position: absolute;
+    bottom: 30%; 
+    left: 10%; 
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem; 
+    line-height: 1.1;
+    text-align: left;
+}
+
+
+
+
+/*-----BOTONES HOME-----*/
+
+#botoneshome {
+    width: auto; 
+    display: flex;
+    justify-content: center;
+    margin-top: 3px; 
+}
+
+/*BOTON ENTRADAS DISPONIBLES*/
+
+.links1 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.links1 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.links1:hover {
+    border-color: #85A6B9;
+}
+
+.links1 {
+	width: auto;
+}
+
+.links1 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*ACABA ENTRADAS DISPONIBLES*/
+
+/*BOTON NOVEDADES*/
+
+.links2 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.links2 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.links2:hover {
+    border-color: #D4B63A;
+}
+
+.links2 {
+	width: auto;
+}
+
+.links2 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*ACABA NOVEDADES*/
+
+/*BOTON CUENTA ATRÁS*/
+
+.links3 {
+	width: auto;
+	margin: 10% 15%;
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 1;
+	margin: 5% 20px 6% 0;
+}
+
+.links3 {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.links3:hover {
+    border-color: #88AD7E;
+}
+
+.links3 {
+	width: auto;
+}
+
+.links3 a {
+	width: auto;
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+/*ACABA CUENTA ATRÁS*/
+
+/*BOTÓN PLAYLIST SPOTIFY*/
+
+
+.links4 {
+    display: inline-block;
+    padding: 10px 20px; 
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 50px; 
+}
+
+.links4 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.links4:hover {
+    border-color: #458135;
+    background-color: #458135 ;
+}
+
+/*-----------TEXTOS HOME------------*/
+
+/*------ESTRUCTURA EN COMÚN--------*/
+
+/* SECCIONES DE CONTENIDO*/
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+/* COLUMNAS */
+.columna {
+    flex-basis: 60%; 
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+/* IMAGENES */
+.columna img {
+    max-width: 100%; 
+    height: 100%;
+}
+
+/* SUBTÍTULOS EN COMÚN */
+
+.subtitulo {
+    font-weight: lighter;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+/* TÍTULOS EN COMÚN */
+.titulo {
+    font-weight: normal;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+/* CUERPO EN COMÚN */
+.cuerpo {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+
+
+/* DESTACADA 1 AZUL*/
+.destacado1 {
+    font-weight: bold;
+    color: #85A6B9;
+}
+
+/* DESTACADA 2 AMARILLO*/
+.destacado2 {
+    font-weight: bold;
+    color: #D4B63A; 
+}
+
+/* DESTACADA 3 LILA*/
+.destacado3 {
+    font-weight: bold;
+    color: #5E4686;
+}
+
+/* DESTACADA 4 VERDE*/
+.destacado4 {
+    font-weight: bold;
+    color: #458135;
+}
+
+/*------RESPONSIVE------*/
+
+/* Haz que la página sea responsive */
+@media only screen and (max-width: 600px) {
+
+    #logotipo img {
+        width: 80%;
+    }
+
+    .texto-superpuesto {
+        font-size: 2rem;
+        line-height: 1.1;
+        text-align: left;
+        position: absolute;
+        top: 40%;
+        left: 10%; 
+    }
+
+    .texto-superpuesto2 {
+        font-size: 1rem;
+        line-height: 1.1;
+        position: absolute;
+        top: 50%;
+        left: 10%; 
+    }
+
+    #botoneshome {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .contenido {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        display: flex;
+    }
+
+    .columna {
+        width: 100%;
+        flex-basis: 60%;
+        padding: 20px;
+        margin: 20px 0;
+
+    }
+
+    .columna li {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .contenido img {
+        height: auto;
+    }
+    .columna img {
+        height: auto;
+        justify-content: center;
+    }
+
+    .subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .cuerpo {
+        font-size: 1rem;
+    }
+
+    .links1 {
+        width: 100%;
+    }
+        .links2 {
+        width: 100%;
+    }
+        .links3 {
+        width: 100%;
+    }
+        .links4 {
+        justify-content: center;
+    }
+}

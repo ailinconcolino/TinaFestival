@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181818;
+    background-image: url('MEDIA/graffiticon.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.formulario-mapa {
+    font-family: "montserrat", sans-serif;
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 9%;
+}
+
+.formulario {
+    flex-basis: 48%;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.mapa {
+    flex-basis: 60%;
+}
+
+.containermapa {
+    padding: 20px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+#nombre1,
+#correo1,
+#telefono1,
+#asunto1,
+#mensaje1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #88AD7E;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.boton button {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #88AD7E;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: montserrat ;
+    font-weight: lighter;
+    transition: background-color 0.3s;
+}
+
+.contenido {
+    flex-basis: 160%;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.columna {
+    box-sizing: border-box;
+    flex-basis: 63%;
+}
+
+.sponsor {
+    font-size: 40px;
+    color: #CB448D;
+}
+
+.subtitulo {
+    font-weight: lighter;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.cuerpo {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.mapa2 {
+    border-radius: 10px;
+}
+
+.formulario2 {
+    flex-basis: 160%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.campo2 {
+    margin-bottom: 20px;
+}
+
+.campo2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+#nombre2,
+#correo2,
+#telefono2,
+#asunto2,
+#mensaje2 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CB448D;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+.boton2 button {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #CB448D;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: montserrat;
+    font-weight: lighter;
+    transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario-mapa {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .formulario {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  
+    .formulario2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  
+    .formulario-mapa .formulario,
+    .formulario-mapa .formulario2 {
+        margin-bottom: 20px;
+    }
+  
+    .formulario-mapa .mapa {
+        width: 100%;
+    }
+  
+    .mapa2 {
+        height: 400px;
+        width: 400px;
+    }
+}
